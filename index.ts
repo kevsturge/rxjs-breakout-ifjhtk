@@ -21,6 +21,8 @@ const player$ = combineLatest(
   )
 )
 
+//Add cmment herea hello
+
 const ball$ = combineLatest(
   of({ ...createGameObject(gameSize / 2, (gameSize - 3)), dirX: 1, dirY: 1 }),
   interval(150)
